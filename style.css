@@ -12,3 +12,15 @@
   /* 10px >> bleary */
   border-radius: 20px;
 }
+
+.face {
+  position: relative;
+  height: 250px;
+  width: 60px;
+  background: #fce2c4;
+  left: 220px;
+  top: 100px;
+  border: 4px solid #ffa945;
+  border-bottom: none;
+  transform: rotate(4deg);
+}
