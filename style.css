@@ -38,3 +38,18 @@
   top: 170px;
   left: -12px;
 }
+
+.face::after {
+  content: " ";
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  background-color: #fce2c4;
+  top: 80px;
+  left: 56px;
+  border-radius: 50%;
+  border: 4px solid #ffa945;
+  border-left: none;
+  border-top: none;
+  transform: rotate(-40deg);
+}
