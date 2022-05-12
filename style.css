@@ -129,3 +129,65 @@
 .eye1::after {
   top: 14px;
 }
+
+.hair {
+  position: relative;
+  bottom: 252px;
+  left: 10px;
+  z-index: 50;
+}
+
+.hair > div:nth-child(1) {
+  position: absolute;
+  height: 30px;
+  width: 100px;
+  border-top: 20px solid green;
+  left: 180px;
+  bottom: 40px;
+  border-radius: 50px 40px 0 0;
+  transform: rotate(30deg);
+}
+
+.hair > div:nth-child(2) {
+  position: absolute;
+  height: 30px;
+  width: 100px;
+  border-top: 20px solid green;
+  left: 200px;
+  bottom: 40px;
+  border-radius: 50px 40px 0 0;
+  transform: rotate(70deg);
+}
+
+.hair > div:nth-child(3) {
+  position: absolute;
+  height: 30px;
+  width: 80px;
+  border-top: 20px solid green;
+  left: 220px;
+  bottom: 50px;
+  border-radius: 50px 40px 0 0;
+  transform: rotate(130deg);
+}
+
+.hair > div:nth-child(4) {
+  position: absolute;
+  height: 30px;
+  width: 100px;
+  border-top: 20px solid green;
+  left: 200px;
+  bottom: 20px;
+  border-radius: 50px 40px 0 0;
+  transform: rotate(20deg);
+}
+
+.hair > div:nth-child(5) {
+  position: absolute;
+  height: 30px;
+  width: 50px;
+  border-top: 20px solid green;
+  left: 260px;
+  bottom: 20px;
+  border-radius: 50px 40px 0 0;
+  transform: rotate(10deg);
+}
