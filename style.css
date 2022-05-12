@@ -65,6 +65,7 @@
   border-right: none;
   border-radius: 14px 0 0 14px;
   transform: rotate(4deg);
+  z-index: 1;
 }
 
 .nose::after {
@@ -76,4 +77,40 @@
   border-top: 4px solid #ffa945;
   left: 30px;
   top: -4px;
+}
+
+.eye {
+  position: relative;
+  height: 44px;
+  width: 40px;
+  border-radius: 50%;
+  background: white;
+  left: 206px;
+  bottom: 188px;
+  border: 3px solid black;
+  transform: rotate(4deg);
+  z-index: 0;
+}
+
+.eye::before {
+  content: " ";
+  position: absolute;
+  height: 12px;
+  width: 10px;
+  background-color: black;
+  border-radius: 50%;
+  left: 14px;
+  top: 22px;
+  transform: rotate(16deg);
+}
+
+.eye::after {
+  content: " ";
+  position: absolute;
+  height: 4px;
+  width: 4px;
+  background-color: white;
+  left: 18px;
+  top: 24px;
+  border-radius: 50%;
 }
