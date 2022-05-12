@@ -24,3 +24,17 @@
   border-bottom: none;
   transform: rotate(4deg);
 }
+
+.face::before {
+  content: " ";
+  position: absolute;
+  height: 14px;
+  width: 14px;
+  background-color: #fce2c4;
+  border-left: 6px solid #ffa945;
+  border-bottom: 4px solid #ffa945;
+  border-bottom-left-radius: 10px;
+  transform: skew(-40deg);
+  top: 170px;
+  left: -12px;
+}
